@@ -1,0 +1,7 @@
+<h4> My Heroes </h4>
+
+<div *ngFor="let hero of heroList" >
+  <a href="detail?id={{hero.id}}">
+    <h5> {{ hero.id }} {{ hero.name }} </h5> 
+  </a>
+</div>
